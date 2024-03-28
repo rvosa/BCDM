@@ -1,0 +1,73 @@
+bcdm_field	bold_db	bold_db_table	bold_db_field	rules
+associated_specimens	db1:newdb12	specimendetails	associated_specimens	^.{0,1024}$
+associated_taxa	db1:newdb12	specimendetails	associated_taxa	^.{0,1024}$
+bin_uri
+bin_created_date
+class	db1:newdb12	specimendetails	verbatim_class	^.{0,80}$
+collection_code	db1:newdb12	specimen	collectioncode	^.{0,34}$
+collection_date_start	db1:newdb12	specimendetails	verbatim_collectiondate	^.{0,32}$
+collection_date_end	db1:newdb12	specimendetails	verbatim_collectiondate_precision	
+collection_event_id	db1:newdb12	specimendetails	collection_event_id	^.{0,128}$
+collection_notes	db1:newdb12	specimendetails	fk_collectionnote.notes.note	^.{0,800}$
+collection_time	db1:newdb12	specimendetails	collectiontime	^.{0,64}$
+collectors	db1:newdb12	specimendetails	collectors	^.{0,150}$
+coord	db1:newdb12	location	verbatim_coord	^.{0,64}$
+coord_accuracy	db1:newdb12	location	verbatim_gps_accuracy	
+coord_source	db1:newdb12	location	gps_source	^.{0,100}$
+country/ocean	db1:newdb12	location	verbatim_country	^.{1,50}$
+country_iso	db1:newdb12	location	verbatim_country_iso_alpha3	^.{1,6}$
+depth	db1:newdb12	location	verbatim_depth	
+depth_accuracy	db1:newdb12	location	verbatim_depth_accuracy	
+elev	db1:newdb12	location	verbatim_elev	
+elev_accuracy	db1:newdb12	location	verbatim_elev_accuracy	
+family	db1:newdb12	specimendetails	verbatim_family	^.{0,80}$
+fieldid	db1:newdb12	specimen	isolate	^.{0,68}$
+funding_src	db1:newdb12	specimendetails	fundingsrc	^.{0,64}$
+genus	db1:newdb12	specimendetails	verbatim_genus	^.{0,80}$
+geoid
+habitat	db1:newdb12	specimendetails	habitat	^.{0,256}$
+identification				
+identification_method	db1:newdb12	specimen	identification_method	^.{0,256}$
+identification_rank				
+identified_by	db1:newdb12	specimendetails	verbatim_identifier	^.{0,90}$
+identifier_email				
+inst	db1:newdb12	specimendetails	verbatim_depository	^.{0,300}$
+insdc_acs				^.{1,68}$
+kingdom	db1:newdb12	specimendetails	verbatim_kingdom	^.{1,80}$
+life_stage	db1:newdb12	specimendetails	lifestage	^.{0,128}$
+marker_code				
+museumid	db1:newdb12	specimen	catalognum	^.{0,68}$
+notes	db1:newdb12	specimendetails	fk_notes.notes.note	
+nuc
+nuc_basecount
+order	db1:newdb12	specimendetails	verbatim_order	^.{0,80}$
+phylum	db1:newdb12	specimendetails	verbatim_phylum	^.{1,80}$
+primers_forward				
+primers_reverse				
+processid	db1:newdb12	seqentry	processid	^.{1,15}$
+processid_minted_date				^(0[1-9]|[12][0-9]|3[01])-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)-[0-9]{4}$
+province/state	db1:newdb12	location	verbatim_province	^.{0,200}$
+record_id				
+recordset_code_arr				
+region	db1:newdb12	locatdesc	region	^.{0,200}$
+reproduction	db1:newdb12	specimendetails	reproduction	^[ascASC]$
+sampleid	db1:newdb12	specimen	sampleid	^.{1,68}$
+sampling_protocol	db1:newdb12	specimendetails	sampling_protocol	^.{0,128}$
+sector	db1:newdb12	locatdesc	sector	^.{0,200}$
+sequence_run_site				
+sequence_upload_date				^(0[1-9]|[12][0-9]|3[01])-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)-[0-9]{4}$
+sex	db1:newdb12	specimendetails	sex	^[mfhMFH]$
+short_note	db1:newdb12	specimen	extrainfo	^.{0,50}$
+site	db1:newdb12	locatdesc	site	^.{0,150}$
+site_code	db1:newdb12	specimendetails	sitecode	^.{0,128}$
+species	db1:newdb12	specimendetails	verbatim_species	^.{0,80}$
+species_reference	db1:newdb12	specimendetails	verbatim_species_reference	^.{0,256}$
+specimen_linkout	db1:newdb12	specimendetails	linkout	^.{0,256}$
+specimenid				
+subfamily	db1:newdb12	specimendetails	verbatim_subfamily	^.{0,80}$
+subspecies	db1:newdb12	specimendetails	verbatim_subspecies	^.{0,80}$
+taxid
+taxonomy_notes	db1:newdb12	specimendetails	fk_taxnotes.notes.note	
+tissue_type	db1:newdb12	specimendetails	tissuetype	^.{0,100}$
+tribe	db1:newdb12	specimendetails	verbatim_tribe	^.{0,80}$
+voucher_type	db1:newdb12	specimendetails	vouchertype	^.{0,100}$
