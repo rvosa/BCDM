@@ -67,7 +67,7 @@ Please notice that the BCDM field `identifier_email` is not part of the exported
 <br>
 <br>
 
-  4. **mapping_BCDM_to_DWC.tsv**: This document provides the mapping of the BCDM to Darwin Core standard. Please notice that not all BCMD fields have an equivalent term in the Darwin Core standard and therefore they will not be part of the export. DarwinCore fields can be found in the following link: `[Darwin Reference Guide] (https://dwc.tdwg.org/terms/)`
+  4. **mapping_BCDM_to_DWC.tsv**: This document provides the mapping of the BCDM to Darwin Core standard. Please notice that not all BCMD fields have an equivalent term in the Darwin Core standard and therefore they will not be part of the export. DarwinCore fields can be found in the following link: [Darwin Core Reference Guide](https://dwc.tdwg.org/terms/)
  
 <br>
 
